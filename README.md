@@ -8,17 +8,17 @@ Additionally, it will retrieve similar vehicle listings from an Azure databaseâ€
 
 <img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/year_frequency.png"  width="80%" height="70%">
 
-<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/condition_frequency.png"  width="60%" height="60%">
+<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/condition_frequency.png"  width="80%" height="70%">
 
-<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/color_frequency.png"  width="60%" height="60%">
+<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/color_frequency.png"  width="80%" height="70%">
 
-<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/fuel_frequency.png"  width="110%" height="90%">  
+<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/fuel_frequency.png"  width="80%" height="70%">  
 
-<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/cylinders_frequency.png"  width="60%" height="60%">
+<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/cylinders_frequency.png"  width="80%" height="70%">
 
-<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/drive_frequency.png"  width="60%" height="60%">
+<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/drive_frequency.png"  width="80%" height="70%">
 
-<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/title_frequency.png"  width="60%" height="60%">
+<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/title_frequency.png"  width="80%" height="70%">
 
 <img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/price_outliers.png"  width="60%" height="60%">
 
