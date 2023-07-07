@@ -4,15 +4,31 @@ This is a web application that takes information about a vehicle such as year, m
 Additionally, it will retrieve similar vehicle listings from an Azure database  .
 
 <p align="center">
-<img src="https://github.com/AlexBandurin/Train_Accidents/blob/master/Casualties_by_Company.jpeg"  width="60%" height="60%">
+<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/make_frequency.png"  width="60%" height="60%">
 
-<img src="https://github.com/AlexBandurin/Train_Accidents/blob/master/Passenger_Trains.jpeg"  width="60%" height="60%">
+<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/year_frequency.png"  width="60%" height="60%">
 
-<img src="https://github.com/AlexBandurin/Train_Accidents/blob/master/Accident_Causes.jpeg"  width="60%" height="60%">
+<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/condition_frequency.png"  width="60%" height="60%">
 
-<img src="https://github.com/AlexBandurin/Train_Accidents/blob/master/Accident_Causes_2.jpeg"  width="60%" height="60%">
+<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/color_frequency.png"  width="60%" height="60%">
 
-<img src="https://github.com/AlexBandurin/Train_Accidents/blob/master/Casualties_by_code.jpeg"  width="110%" height="90%">  
+<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/fuel_frequency.png"  width="110%" height="90%">  
 
-<img src="https://github.com/AlexBandurin/Train_Accidents/blob/master/Accident_Map.jpeg"  width="60%" height="60%">
+<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/cylinders_frequency.png"  width="60%" height="60%">
+
+<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/drive_frequency.png"  width="60%" height="60%">
+
+<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/title_frequency.png"  width="60%" height="60%">
+
+<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/price_outliers.png"  width="60%" height="60%">
+
+<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/odometer_outliers.png"  width="60%" height="60%">
+
+<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/year_outliers.png"  width="110%" height="90%">  
+
+<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/price_dist.png"  width="60%" height="60%">
+
+<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/odometer_dist.png"  width="110%" height="90%">  
+
+<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/year_dist.png"  width="60%" height="60%">
 </p> 
