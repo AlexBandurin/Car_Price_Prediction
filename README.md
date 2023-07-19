@@ -52,8 +52,8 @@ Bar plots visualizing the frequency of colors, fuel types, cylinders, drivetrain
 
 I also considered heatmaps showing correlations between all the features:
 <p align="center">
-<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/corr_matrix.png"  width="80%" height="70%">
-<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/corr_matrix_makes.png"  width="80%" height="70%">
+<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/corr_matrix.png"  width="60%" height="60%">
+<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/corr_matrix_makes.png"  width="60%" height="60%">
 </p> 
 <br /> <br /> Boxplots and bar charts showing the distribution of data by price, odometer (mileage), and  year. Note: This technique was used for 
 filtering out outliers in the raw dataset. The below boxplot shows the distribution of the cleaned dataset.
@@ -79,29 +79,29 @@ To gauge performance, I used the R squared, where the independent variable is th
 variable is the "y hat" or the price predicted by the model. Additionally, I considered the Means Squared Error (MSE) and Mean Absolute Error (MAE).
 
 
-R squared: 0.711
-MAE: 3821.986
-MSE: 30190283.525
+R squared: 0.711<br /> <br /> 
+MAE: 3821.986<br /> <br /> 
+MSE: 30190283.525<br /> <br /> 
 <p align="center">
-<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/LinReg_Plot.png"  width="80%" height="70%">
+<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/LinReg_Plot.png"  width="60%" height="60%">
 </p> 
 R squared: 0.639
 MAE: 3789.584
 MSE: 37757232.95
 <p align="center">
-<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/regression_tree_Plot.png"  width="80%" height="70%">
+<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/regression_tree_Plot.png"  width="60%" height="60%">
 </p> 
 R squared: 0.648
 MAE: 3758.232
 MSE: 36762406.605
 <p align="center">
-<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/random_forest_plot.png"  width="80%" height="70%">
+<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/random_forest_plot.png"  width="60%" height="60%">
 </p> 
 R squared: 0.825
 MAE: 2757.316
 MSE: 18291157.564
 <p align="center">
-<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/xgboost_plot.png"  width="80%" height="70%">
+<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/xgboost_plot.png"  width="60%" height="60%">
 </p> 
 
 [Model Building notebook](https://github.com/AlexBandurin/car_price_prediction/blob/master/Prediction_Modeling.ipynb)
