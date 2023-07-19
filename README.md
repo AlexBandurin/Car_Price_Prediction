@@ -3,7 +3,28 @@
 I create a web application that takes information about a vehicle such as year, make, model, mileage, condition, color, etc. as well as a description (NLP is used to process text input) and outputs an estimated price. Additionally, it will retrieve similar vehicle listings from an Azure database  .
 
 It uses a machine learning algorithm trained on tens of thousands of used car listings that have been obtained through web scraping of Cragslist websites.
+## Web scraping
+Using Selenium and BeautifulSoup Python packages, I was able to collect vehicle descriptions from over 50,000 Craigslist listsings. 
+These variables included: **Vehicle info, Price, Cylinders, City (city the listing was posted in), Condition, Odometer (mileage), Paint Color, Time (time the listing was posted), Title Status, Drive (drivetrain), Fuel, Transmission, Description (vehicle description), Type (vehicle type), Size, Lat (latitude of seller location), Long (longtitude of seller location), Date(date the listing was posted), pID (unique id of the listing)** 
+[Web scraping notebook](https://github.com/AlexBandurin/car_price_prediction/blob/master/clbot3.py)
+## Data Cleansing
+The raw data was then cleaned and organized into a table with only the following variables:
+- Year
+- Make
+- Model
+- Condition
+- Color
+- Odometer
+- Fuel
+- Cylinders
+- Title Status
+- Drive
+- Transmission
+- Description
+- Price
+NOTE: The variables **Year**, **Make**, and **Model** have been extracted from the "Vehicle info" attribute attained in the web scraping stage
 
+[Data Cleansing notebook](https://github.com/AlexBandurin/car_price_prediction/blob/master/cl_cleansing.py)
 ## EDA
 
 Used bar plots to visualize vehicle frequency by Make as well as by Year: <br /><br /> 
@@ -26,7 +47,7 @@ Bar plots visualizing the frequency of colors, fuel types, cylinders, drivetrain
 
 <img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/title_frequency.png"  width="80%" height="70%">
 
-<br /> <br /> Boxplots showing the distribution of data by price, odometer (mileage), and  year. Note: This technique was used for 
+<br /> <br /> Boxplots and bar charts showing the distribution of data by price, odometer (mileage), and  year. Note: This technique was used for 
 filtering out outliers in the raw dataset. The below boxplot shows the distribution of the cleaned dataset. For more details,
 take a look at my EDA [notebook](https://github.com/AlexBandurin/car_price_prediction/blob/master/Used_Cars_Project_EDA.ipynb) <br /><br /> 
 
@@ -42,3 +63,6 @@ take a look at my EDA [notebook](https://github.com/AlexBandurin/car_price_predi
 
 <img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/year_dist.png"  width="80%" height="70%">
 </p> 
+[EDA notebook](https://github.com/AlexBandurin/car_price_prediction/blob/master/cl_cleansing.py)
+## Model Building
+
