@@ -84,17 +84,17 @@ R squared: 0.711, MAE: 3821.986, MSE: 30190283.525
 <p align="center">
 <img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/LinReg_Plot.png"  width="60%" height="60%">
 </p> 
-R squared: 0.639, MAE: 3789.584, MSE: 37757232.95 
+R squared: 0.639, MAE: 3789.584, MSE: 37757232.95<br />
 
 <p align="center">
 <img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/regression_tree_Plot.png"  width="60%" height="60%">
 </p> 
-R squared: 0.648, MAE: 3758.232, MSE: 36762406.605
+R squared: 0.648, MAE: 3758.232, MSE: 36762406.605<br />
 
 <p align="center">
 <img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/random_forest_plot.png"  width="60%" height="60%">
 </p> 
-R squared: 0.825, MAE: 2757.316, MSE: 18291157.564
+R squared: 0.825, MAE: 2757.316, MSE: 18291157.564<br />
 
 <p align="center">
 <img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/xgboost_plot.png"  width="60%" height="60%">
