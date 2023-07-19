@@ -7,7 +7,6 @@ It uses a machine learning algorithm trained on tens of thousands of used car li
 ## Web scraping
 [Web scraping notebook](https://github.com/AlexBandurin/car_price_prediction/blob/master/clbot3.py) <br /><br />
 Using Selenium and BeautifulSoup Python packages, I was able to collect vehicle descriptions from over 50,000 Craigslist listsings. 
-These variables included: <br /><br /> **Vehicle info**, **Price**, **Cylinders**, **City** (city the listing was posted in), **Condition**, **Odometer** (mileage), **Paint** **Color**, **Time** (time the listing was posted), **Title Status**, **Drive** (drivetrain), **Fuel**, **Transmission**, **Description** (vehicle description), **Type** (vehicle type), **Size**, **Lat** (latitude of seller location), **Long** (longtitude of seller location), **Date** (date the listing was posted), **pID** (unique id of the listing)
 
 ## Data Cleansing
 [Data Cleansing File](https://github.com/AlexBandurin/car_price_prediction/blob/master/cl_cleansing.py) <br /><br />
