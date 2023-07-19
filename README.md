@@ -12,11 +12,10 @@ Used bar plots to visualize vehicle frequency by Make as well as by Year: <br />
 
 <img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/year_frequency.png"  width="80%" height="70%">
 
-<br />
-Here is a scatter plot of vehicle Price vs Year, with marker colors indicating the vehicle condition: <br /> <br /> 
+<br /><br /> Here is a scatter plot of vehicle Price vs Year, with marker colors indicating the vehicle condition: <br /> <br /> 
 
 <img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/condition_freq.png"  width="80%" height="70%">
-<br>Bar plots visualizing the frequency of colors, fuel types, cylinders, drivetrain, and title status:<br>
+<br /><br /> Bar plots visualizing the frequency of colors, fuel types, cylinders, drivetrain, and title status:<br /> 
 <img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/color_frequency.png"  width="80%" height="70%">
 
 <img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/fuel_frequency.png"  width="80%" height="70%">  
