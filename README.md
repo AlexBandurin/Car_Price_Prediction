@@ -6,7 +6,7 @@ It uses a machine learning algorithm trained on tens of thousands of used car li
 
 ## EDA
 
-Used bar plots to visualize vehicle frequency by Make as well as by Year:<br>
+Used bar plots to visualize vehicle frequency by Make as well as by Year:<br /> <br /> <br /> 
 <p align="center">
 <img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/make_frequency.png"  width="80%" height="70%">
 
