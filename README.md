@@ -6,6 +6,7 @@ It uses a machine learning algorithm trained on tens of thousands of used car li
 ## Web scraping
 Using Selenium and BeautifulSoup Python packages, I was able to collect vehicle descriptions from over 50,000 Craigslist listsings. 
 These variables included: **Vehicle info, Price, Cylinders, City (city the listing was posted in), Condition, Odometer (mileage), Paint Color, Time (time the listing was posted), Title Status, Drive (drivetrain), Fuel, Transmission, Description (vehicle description), Type (vehicle type), Size, Lat (latitude of seller location), Long (longtitude of seller location), Date(date the listing was posted), pID (unique id of the listing)** 
+
 [Web scraping notebook](https://github.com/AlexBandurin/car_price_prediction/blob/master/clbot3.py)
 ## Data Cleansing
 The raw data was then cleaned and organized into a table with only the following variables:
@@ -64,5 +65,6 @@ take a look at my EDA [notebook](https://github.com/AlexBandurin/car_price_predi
 <img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/year_dist.png"  width="80%" height="70%">
 </p> 
 [EDA notebook](https://github.com/AlexBandurin/car_price_prediction/blob/master/cl_cleansing.py)
-## Model Building
 
+## Model Building
+[Model Building notebook](https://github.com/AlexBandurin/car_price_prediction/blob/master/Prediction_Modeling.ipynb)
