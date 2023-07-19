@@ -79,15 +79,15 @@ To gauge performance, I used the R squared, where the independent variable is th
 variable is the "y hat" or the price predicted by the model. Additionally, I considered the Means Squared Error (MSE) and Mean Absolute Error (MAE).
 
 
-R squared: 0.711<br /> <br /> 
-MAE: 3821.986<br /> <br /> 
-MSE: 30190283.525<br /> <br /> 
+R squared: 0.711 <br /> <br /> 
+MAE: 3821.986 <br /> <br /> 
+MSE: 30190283.525 <br /> <br /> 
 <p align="center">
 <img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/LinReg_Plot.png"  width="60%" height="60%">
 </p> 
-R squared: 0.639
-MAE: 3789.584
-MSE: 37757232.95
+R squared: 0.639 <br /> <br /> 
+MAE: 3789.584 <br /> <br /> 
+MSE: 37757232.95 <br /> <br /> 
 <p align="center">
 <img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/regression_tree_Plot.png"  width="60%" height="60%">
 </p> 
