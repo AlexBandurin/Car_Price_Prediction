@@ -25,7 +25,7 @@ The raw data was then cleaned and organized into a table with only the following
 - Price
 NOTE: The variables **Year**, **Make**, and **Model** have been extracted from the "Vehicle info" attribute attained in the web scraping stage
 
-[Data Cleansing notebook](https://github.com/AlexBandurin/car_price_prediction/blob/master/cl_cleansing.py)
+[Data Cleansing](https://github.com/AlexBandurin/car_price_prediction/blob/master/cl_cleansing.py)
 ## EDA
 
 Used bar plots to visualize vehicle frequency by Make as well as by Year: <br /><br /> 
@@ -57,7 +57,7 @@ I also considered heatmaps showing correlations between all the features:
 </p> 
 <br /> <br /> Boxplots and bar charts showing the distribution of data by price, odometer (mileage), and  year. Note: This technique was used for 
 filtering out outliers in the raw dataset. The below boxplot shows the distribution of the cleaned dataset. For more details,
-take a look at my [EDA notebook](https://github.com/AlexBandurin/car_price_prediction/blob/master/Used_Cars_Project_EDA.ipynb) <br /><br />. 
+take a look at my [EDA notebook](https://github.com/AlexBandurin/car_price_prediction/blob/master/cl_cleansing.py) <br /><br /> . 
 <p align="center">
 <img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/price_outliers.png"  width="80%" height="70%">
 
@@ -84,6 +84,6 @@ variable is the "y hat" or the price predicted by the model. Additionally, I con
 <img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/regression_tree_Plot.png"  width="80%" height="70%">
 <img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/random_forest_plot.png"  width="80%" height="70%">
 <img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/xgboost_plot.png"  width="80%" height="70%">
-
 </p> 
+
 [Model Building notebook](https://github.com/AlexBandurin/car_price_prediction/blob/master/Prediction_Modeling.ipynb)
