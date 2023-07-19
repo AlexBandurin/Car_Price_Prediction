@@ -8,16 +8,20 @@ It uses a machine learning algorithm trained on tens of thousands of used car li
 
 Used bar plots to visualize vehicle frequency by Make as well as by Year:
 
+
 <p align="center">
 <img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/make_frequency.png"  width="80%" height="70%">
 
 <img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/year_frequency.png"  width="80%" height="70%">
 
+
 Here is a scatter plot of vehicle Price vs Year, with marker colors indicating the vehicle condition:
+
 
 <img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/condition_freq.png"  width="80%" height="70%">
 
 Bar plots visualizing the frequency of colors, fuel types, cylinders, drivetrain, and title status:
+
 
 <img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/color_frequency.png"  width="80%" height="70%">
 
