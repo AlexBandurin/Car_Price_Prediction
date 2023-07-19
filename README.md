@@ -24,7 +24,7 @@ The raw data was then cleaned and organized into a table with only the following
 - Drive
 - Transmission
 - Description
-- Price <br /><br />
+- Price <br />
 
 NOTE: The variables **Year**, **Make**, and **Model** have been extracted from the "Vehicle info" attribute attained in the web scraping stage
 
