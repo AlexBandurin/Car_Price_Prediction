@@ -3,6 +3,7 @@
 I create a web application that takes information about a vehicle such as year, make, model, mileage, condition, color, etc. as well as a description (NLP is used to process text input) and outputs an estimated price. Additionally, it will retrieve similar vehicle listings from an Azure database  .
 
 It uses a machine learning algorithm trained on tens of thousands of used car listings that have been obtained through web scraping of Cragslist websites.
+
 ## Web scraping
 [Web scraping notebook](https://github.com/AlexBandurin/car_price_prediction/blob/master/clbot3.py) <br /><br />
 Using Selenium and BeautifulSoup Python packages, I was able to collect vehicle descriptions from over 50,000 Craigslist listsings. 
@@ -73,11 +74,12 @@ filtering out outliers in the raw dataset. The below boxplot shows the distribut
 </p> 
 
 ## Model Building
-[Model Building notebook](https://github.com/AlexBandurin/car_price_prediction/blob/master/Prediction_Modeling.ipynb) <br /><br />
+[Model Building notebook](https://github.com/AlexBandurin/car_price_prediction/blob/master/Used_Cars_Modeling.ipynb) <br /><br />
 I tried several models, including Linear Regression, Decision Tree regressor, XGBoost regressor, and Random Forest Regressor.
 To gauge performance, I used the R squared, where the independent variable is the actual value of the target variable,or price, and the dependent
 variable is the "y hat" or the price predicted by the model. Additionally, I considered the Means Squared Error (MSE) and Mean Absolute Error (MAE).
 
+The XGBoost algorithm has performed the best by far, so it is the one I decided to go with.
 
 R squared: 0.711, MAE: 3821.986, MSE: 30190283.525
 
@@ -99,3 +101,8 @@ R squared: 0.825, MAE: 2757.316, MSE: 18291157.564 <br /><br />
 <p align="center">
 <img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/xgboost_plot.png"  width="60%" height="60%">
 </p> 
+
+## Natural Language Processing (NLP)
+
+I used BERT, a large language model (LLM) from Transformers for converting the text descriptions of each vehicle into vector form. 
+I also tried the GloVe algorithm, but its performance has been noticeably worse. 
