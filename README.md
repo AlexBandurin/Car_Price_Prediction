@@ -79,9 +79,21 @@ To gauge performance, I used the R squared, where the independent variable is th
 variable is the "y hat" or the price predicted by the model. Additionally, I considered the Means Squared Error (MSE) and Mean Absolute Error (MAE).
 
 <p align="center">
+R squared: 0.711
+MAE: 3821.986
+MSE: 30190283.525
 <img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/LinReg_Plot.png"  width="80%" height="70%">
+R squared: 0.639
+MAE: 3789.584
+MSE: 37757232.95
 <img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/regression_tree_Plot.png"  width="80%" height="70%">
+R squared: 0.648
+MAE: 3758.232
+MSE: 36762406.605
 <img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/random_forest_plot.png"  width="80%" height="70%">
+R squared: 0.825
+MAE: 2757.316
+MSE: 18291157.564
 <img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/xgboost_plot.png"  width="80%" height="70%">
 </p> 
 
