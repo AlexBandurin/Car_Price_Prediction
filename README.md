@@ -56,8 +56,7 @@ I also considered heatmaps showing correlations between all the features:
 <img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/corr_matrix_makes.png"  width="80%" height="70%">
 </p> 
 <br /> <br /> Boxplots and bar charts showing the distribution of data by price, odometer (mileage), and  year. Note: This technique was used for 
-filtering out outliers in the raw dataset. The below boxplot shows the distribution of the cleaned dataset. For more details,
-take a look at my [EDA notebook](https://github.com/AlexBandurin/car_price_prediction/blob/master/Used_Cars_Project_EDA.ipynb) <br /><br /> . 
+filtering out outliers in the raw dataset. The below boxplot shows the distribution of the cleaned dataset.
 <p align="center">
 <img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/price_outliers.png"  width="80%" height="70%">
 
