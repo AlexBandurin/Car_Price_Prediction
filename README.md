@@ -12,7 +12,7 @@ Used bar plots to visualize vehicle frequency by Make as well as by Year: <br />
 
 <img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/year_frequency.png"  width="80%" height="70%">
 
-<br /><br /> 
+<br />
 Here is a scatter plot of vehicle Price vs Year, with marker colors indicating the vehicle condition: <br /> <br /> 
 
 <img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/condition_freq.png"  width="80%" height="70%">
@@ -27,9 +27,9 @@ Here is a scatter plot of vehicle Price vs Year, with marker colors indicating t
 
 <img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/title_frequency.png"  width="80%" height="70%">
 
-Boxplots showing the distribution of data by price, odometer (mileage), and  year. Note: This technique was used for 
+<br /> <br /> Boxplots showing the distribution of data by price, odometer (mileage), and  year. Note: This technique was used for 
 filtering out outliers in the raw dataset. The below boxplot shows the distribution of the cleaned dataset. For more details,
-take a look at my EDA [notebook](https://github.com/AlexBandurin/car_price_prediction/blob/master/Used_Cars_Project_EDA.ipynb) <br /> 
+take a look at my EDA [notebook](https://github.com/AlexBandurin/car_price_prediction/blob/master/Used_Cars_Project_EDA.ipynb) <br /><br /> 
 
 <img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/price_outliers.png"  width="80%" height="70%">
 
