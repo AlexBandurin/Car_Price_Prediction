@@ -59,17 +59,17 @@ I also considered heatmaps showing correlations between all the features:
 <br /> <br /> Boxplots and bar charts showing the distribution of data by price, odometer (mileage), and  year. Note: This technique was used for 
 filtering out outliers in the raw dataset. The below boxplot shows the distribution of the cleaned dataset.
 <p align="center">
-<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/price_outliers.png"  width="80%" height="70%">
+<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/price_outliers.png"  width="70%" height="60%">
 
-<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/odometer_outliers.png" width="80%" height="70%">
+<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/odometer_outliers.png" width="70%" height="60%">
 
-<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/year_outliers.png"  width="80%" height="70%">
+<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/year_outliers.png"  width="70%" height="60%">
 
-<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/price_dist.png"  width="80%" height="70%">
+<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/price_dist.png"  width="70%" height="60%">
 
-<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/odometer_dist.png"  width="80%" height="70%">  
+<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/odometer_dist.png"  width="70%" height="60%">  
 
-<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/year_dist.png"  width="80%" height="70%">
+<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/year_dist.png"  width="70%" height="60%">
 </p> 
 
 [EDA notebook](https://github.com/AlexBandurin/car_price_prediction/blob/master/Used_Cars_Project_EDA.ipynb)
