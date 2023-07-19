@@ -48,9 +48,14 @@ Bar plots visualizing the frequency of colors, fuel types, cylinders, drivetrain
 
 <img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/title_frequency.png"  width="80%" height="70%">
 
+I also considered heatmaps showing correlations between all the features:
+
+<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/corr_matrix.png"  width="80%" height="70%">
+<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/corr_matrix_makes.png"  width="80%" height="70%">
+
 <br /> <br /> Boxplots and bar charts showing the distribution of data by price, odometer (mileage), and  year. Note: This technique was used for 
 filtering out outliers in the raw dataset. The below boxplot shows the distribution of the cleaned dataset. For more details,
-take a look at my EDA [notebook](https://github.com/AlexBandurin/car_price_prediction/blob/master/Used_Cars_Project_EDA.ipynb) <br /><br /> 
+take a look at my [EDA notebook](https://github.com/AlexBandurin/car_price_prediction/blob/master/Used_Cars_Project_EDA.ipynb) <br /><br />. 
 
 <img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/price_outliers.png"  width="80%" height="70%">
 
@@ -64,7 +69,19 @@ take a look at my EDA [notebook](https://github.com/AlexBandurin/car_price_predi
 
 <img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/year_dist.png"  width="80%" height="70%">
 </p> 
+
 [EDA notebook](https://github.com/AlexBandurin/car_price_prediction/blob/master/cl_cleansing.py)
 
 ## Model Building
+I tried several models, including Linear Regression, Decision Tree regressor, XGBoost regressor, and Random Forest Regressor.
+To gauge performance, I used the R squared, where the independent variable is the actual value of the target variable,or price, and the dependent
+variable is the "y hat" or the price predicted by the model. Additionally, I considered the Means Squared Error (MSE) and Mean Absolute Error (MAE).
+
+<p align="center">
+<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/LinReg_Plot.png"  width="80%" height="70%">
+<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/regression_tree_Plot.png"  width="80%" height="70%">
+<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/random_forest_plot.png"  width="80%" height="70%">
+<img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/xgboost_plot.png"  width="80%" height="70%">
+
+</p> 
 [Model Building notebook](https://github.com/AlexBandurin/car_price_prediction/blob/master/Prediction_Modeling.ipynb)
