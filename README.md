@@ -4,12 +4,12 @@ I create a web application that takes information about a vehicle such as year, 
 
 It uses a machine learning algorithm trained on tens of thousands of used car listings that have been obtained through web scraping of Cragslist websites.
 ## Web scraping
-[Web scraping notebook](https://github.com/AlexBandurin/car_price_prediction/blob/master/clbot3.py)
+[Web scraping notebook](https://github.com/AlexBandurin/car_price_prediction/blob/master/clbot3.py)<br /><br />
 Using Selenium and BeautifulSoup Python packages, I was able to collect vehicle descriptions from over 50,000 Craigslist listsings. 
 These variables included: **Vehicle info, Price, Cylinders, City (city the listing was posted in), Condition, Odometer (mileage), Paint Color, Time (time the listing was posted), Title Status, Drive (drivetrain), Fuel, Transmission, Description (vehicle description), Type (vehicle type), Size, Lat (latitude of seller location), Long (longtitude of seller location), Date(date the listing was posted), pID (unique id of the listing)** 
 
 ## Data Cleansing
-[Data Cleansing File](https://github.com/AlexBandurin/car_price_prediction/blob/master/cl_cleansing.py)
+[Data Cleansing File](https://github.com/AlexBandurin/car_price_prediction/blob/master/cl_cleansing.py)<br /><br />
 The raw data was then cleaned and organized into a table with only the following variables:
 - Year
 - Make
@@ -27,7 +27,7 @@ The raw data was then cleaned and organized into a table with only the following
 NOTE: The variables **Year**, **Make**, and **Model** have been extracted from the "Vehicle info" attribute attained in the web scraping stage
 
 ## EDA
-[EDA notebook](https://github.com/AlexBandurin/car_price_prediction/blob/master/Used_Cars_Project_EDA.ipynb)
+[EDA notebook](https://github.com/AlexBandurin/car_price_prediction/blob/master/Used_Cars_Project_EDA.ipynb)<br /><br />
 Used bar plots to visualize vehicle frequency by Make as well as by Year: <br /><br /> 
 <p align="center">
 <img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/make_frequency.png"  width="80%" height="70%">
@@ -73,7 +73,7 @@ filtering out outliers in the raw dataset. The below boxplot shows the distribut
 </p> 
 
 ## Model Building
-[Model Building notebook](https://github.com/AlexBandurin/car_price_prediction/blob/master/Prediction_Modeling.ipynb)
+[Model Building notebook](https://github.com/AlexBandurin/car_price_prediction/blob/master/Prediction_Modeling.ipynb)<br /><br />
 I tried several models, including Linear Regression, Decision Tree regressor, XGBoost regressor, and Random Forest Regressor.
 To gauge performance, I used the R squared, where the independent variable is the actual value of the target variable,or price, and the dependent
 variable is the "y hat" or the price predicted by the model. Additionally, I considered the Means Squared Error (MSE) and Mean Absolute Error (MAE).
