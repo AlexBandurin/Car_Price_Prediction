@@ -4,6 +4,8 @@ I create a web application that takes information about a vehicle such as year, 
 
 It uses a machine learning algorithm trained on tens of thousands of used car listings that have been obtained through web scraping of Cragslist websites.
 
+Here is the link to the web application: http://www.car-pricer.com/
+
 ## Web scraping
 [Web scraping file](https://github.com/AlexBandurin/car_price_prediction/blob/master/clbot3.py) <br /><br />
 Using Selenium and BeautifulSoup Python packages, I was able to collect vehicle descriptions from over 50,000 Craigslist listsings. 
