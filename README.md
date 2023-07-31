@@ -2,7 +2,7 @@
 
 I create a web application in **Plotly Dash** that takes information about a vehicle such as year, make, model, mileage, condition, color, etc. as well as a description (**NLP** is used to process text input) and outputs an estimated price. Additionally, it will retrieve similar vehicle listings from an **Azure database** that stores my data  .
 
-It uses a **machine learning** algorithm trained on tens of thousands of used car listings that have been obtained through **web scraping** of Cragslist websites.
+It uses a **machine learning** algorithm trained on tens of thousands of used car listings that have been obtained through **web scraping** of Craigslist websites.
 
 Here is the link to my web application: http://www.car-pricer.com/
 
