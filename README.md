@@ -120,15 +120,13 @@ Methodology:
 - Those vectors are appended to the original dataframe instead of the original textual description. 
 - The resulting dataframe is run through XGBRegressor to create a price prediction model.
 
-## Web application and Azure Functions
+## Web application, Azure Functions, and SQL Database
 
 [Web Application](https://github.com/AlexBandurin/car_price_prediction/blob/master/car-pricer_demo.py)
 <br /> <br /> [Function App](https://github.com/AlexBandurin/car_price_prediction/blob/master/__init__.py)
 
 I created a web application using Flask. Through a user-firendly interface, it takes vehicle information via drop-down menus and text input from the user and generates a price prediction. 
 In order to optimize compute time and save space, the model has been uploaded to Azure Function App, a serverless compute platform that generates the price prediction every time a user clicks "Calculate". The information entered by a user is converted into JSON format, and is sent to the Function app via RESTful API interface. The price prediction is then returned to be displayed on the site. 
-
-## SQL Database
 
 Additionally, I added a real-time query feature, enabling dynamic data retrieval from Azure SQL database based on user input. Data from vehicle listings of the same make, model, and year as selected by the user are displayed on the webpage. It is also visualized on an interactive map (created with Folium), providing the user with geographical insight. 
 
