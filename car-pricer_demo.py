@@ -455,7 +455,8 @@ def get_price(clicks, year, make, model, odometer, cylinders, condition, color, 
                     "frame": frame.to_dict(orient="list")                               
                 }
 
-                response = requests.post("https://price-predictor2.azurewebsites.net/api/MyFunction?code=QolQ40Wi7RtUD3fx77-KbCvhLfLN_Cw8WMr9-08B0LBOAzFu8QvLtg==", json=data)
+                api_endpoint = '*******'
+                response = requests.post(api_endpoint, json=data)
 
 
                 if response.status_code == 200:
