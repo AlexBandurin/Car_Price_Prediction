@@ -97,7 +97,7 @@ R squared: 0.639, MAE: 3789.584, MSE: 37757232.95 <br /><br />
 <p align="center">
 <img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/regression_tree_Plot.png"  width="60%" height="60%">
 </p> 
-R squared: 0.648, MAE: 3758.232, MSE: 36762406.605 <br /><br />
+R squared: 0.8, MAE: 2883.438, MSE: 20877533.251 <br /><br />
 
 <p align="center">
 <img src="https://github.com/AlexBandurin/car_price_prediction/blob/master/random_forest_plot.png"  width="60%" height="60%">
