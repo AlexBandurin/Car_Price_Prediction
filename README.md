@@ -116,6 +116,6 @@ I used BERT, a large language model (LLM) from Transformers for converting the t
 I also tried the GloVe algorithm, but its performance has been noticeably worse. 
 
 Methodology:
-- The text contents of the "Description" column are converted into 768 vectors using PyTorch and BERT
-- Those vectors are appended to the original dataframe instead of the textual description. 
+- The text contents of the vehicle description column are converted into 768 vectors using PyTorch and BERT
+- Those vectors are appended to the original dataframe instead of the original textual description. 
 - The resulting dataframe is run through XGBRegressor to create a price prediction model. 
