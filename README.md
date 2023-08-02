@@ -110,5 +110,12 @@ R squared: 0.825, MAE: 2757.316, MSE: 18291157.564 <br /><br />
 
 ## Natural Language Processing (NLP)
 
+[NLP Model Building](https://github.com/AlexBandurin/car_price_prediction/blob/master/Used_Cars_NLP_Models.ipynb)
+
 I used BERT, a large language model (LLM) from Transformers for converting the text descriptions of each vehicle into vector form. 
 I also tried the GloVe algorithm, but its performance has been noticeably worse. 
+
+Methodology:
+- The text contents of the "Description" column are converted into 768 vectors using PyTorch and BERT
+- Those vectors are appended to the original dataframe instead of the textual description. 
+- The resulting dataframe is run through XGBRegressor to create a price prediction model. 
