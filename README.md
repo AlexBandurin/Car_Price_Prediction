@@ -123,7 +123,7 @@ Methodology:
 ## Web application and Azure Functions
 
 [Web Application]()
-[Function App]()
+[Function App](https://github.com/AlexBandurin/car_price_prediction/blob/master/__init__.py)
 
 I created a web application using Flask. Through a user-firendly interface, it takes vehicle information via drop-down menus and text input from the user and generates a price prediction. 
 In order to optimize compute time and save space, the model has been uploaded to Azure Function App, a serverless compute platform that generates the price prediction every time a user clicks "Calculate". The information entered by a user is converted into JSON format, and is sent to the Function app via RESTful API interface. The price prediction is then returned to be displayed on the site. 
