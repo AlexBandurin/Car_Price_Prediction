@@ -1,4 +1,4 @@
-# Car_Price_Prediction: Project Overview
+# Car Price Prediction: Project Overview
 
 I create a web application in **Plotly Dash** that takes information about a vehicle such as year, make, model, mileage, condition, color, etc. as well as a description (**NLP** is used to process text input) and outputs an estimated price. Additionally, it will retrieve similar vehicle listings from an **Azure database** that stores my data  .
 
