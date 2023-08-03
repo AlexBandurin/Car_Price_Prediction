@@ -11,7 +11,7 @@ Here is my [Tableau Dashboard](https://public.tableau.com/app/profile/alexander.
 
 ## Web scraping
 [Web scraping file](https://github.com/AlexBandurin/car_price_prediction/blob/master/clbot3.py) <br /><br />
-Using Selenium and BeautifulSoup Python packages, I was able to collect vehicle descriptions from over 50,000 Craigslist listsings. 
+Using Selenium and BeautifulSoup Python packages, I was able to collect vehicle descriptions from over 50,000 Craigslist listings. 
 For higher efficiency, Object Oriented Programming (OOP) was used to implement web scraping. 
 
 ## Data Cleansing
